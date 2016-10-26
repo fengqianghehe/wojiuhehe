@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div id="a" style="width: 100px;"></div>
+		<script>
+			var a=document.getElementById("a");
+			console.log(a.style.width);
+			console.log(document.getComputedStyle(a,false).width);
+		</script>
+	</body>
+</html>
